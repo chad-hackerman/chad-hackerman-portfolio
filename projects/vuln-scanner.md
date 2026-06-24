@@ -1,6 +1,6 @@
 # Automated Vulnerability Scanner
 
-**Repository:** [View Source Code](https://github.com/chadhackerman/vuln-scanner) (**This link would take you to the repository for the scanner**)
+**Repository:** [View Source Code](https://github.com/chad-hackerman/vuln-scanner) (**This link would take you to the repository for the scanner**)
 
 **Status:** Production Ready | In Active Use
 
