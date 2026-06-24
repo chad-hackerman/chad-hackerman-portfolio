@@ -2,7 +2,7 @@
 
 **Repository:** [View Source Code](https://github.com/chad-hackerman/netdefense) (**This would take you to the repository to the actual dashboard project**)
 
-**Live Demo:** [Try It Out](https://demo.chadhacks.dev/dashboard](https://chad-hackerman.github.io/netdefense/)) 
+**Live Demo:** [Try It Out](https://chad-hackerman.github.io/netdefense/) 
 
 **Status:** Production Ready
 
