@@ -44,12 +44,12 @@ Conducted comprehensive security assessments for ***Fortune 500 clients***, iden
 
 **Notable Projects:**
 
-- [Automated Vulnerability Scanner](https://github.com/chadhackerman/vuln-scanner) - Python network security tool
+- [Automated Vulnerability Scanner](https://github.com/chad-hackerman/vuln-scanner) - Python network security tool
   - Scans 500+ hosts per hour with custom CVE database integration
   - Reduced manual scanning time by 85%
   - Tech Stack: Python, Nmap, SQLite, Flask API
 
-- [Network Defense Dashboard](https://github.com/chadhackerman/netdefense) - Real-time threat visualization
+- [Network Defense Dashboard](https://github.com/chad-hackerman/netdefense) - Real-time threat visualization
   - Aggregates data from multiple SIEM sources
   - Custom alerting rules with Slack/Teams integration
   - Tech Stack: Python Flask, D3.js, PostgreSQL, Redis
