@@ -1,7 +1,7 @@
 
 # Automated Incident Response Bot
 
-**Repository:** [View Source Code](https://github.com/chadhackerman/ir-bot) (**This would take you to the actual repository**)
+**Repository:** [View Source Code](https://github.com/chad-hackerman/ir-bot) (**This would take you to the actual repository**)
 
 
 **Status:** Production Ready
