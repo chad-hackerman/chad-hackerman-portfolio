@@ -40,7 +40,48 @@ Complete security testing environment for hands-on practice with enterprise secu
 
 ## Network Architecture
 
-![Network topology diagram showing segmented security zones](../images/network-topology-diagram.png)
+```mermaid
+graph TB
+    Internet((Internet)) --> WAN
+
+    subgraph pfSense ["🔥 pfSense Firewall"]
+        WAN[WAN Interface]
+        LAN[LAN Interface]
+        VLAN10[VLAN 10 - Management]
+        VLAN20[VLAN 20 - Attack Network]
+        VLAN30[VLAN 30 - Target Network]
+    end
+
+    WAN --> LAN
+    LAN --> VLAN10
+    LAN --> VLAN20
+    LAN --> VLAN30
+
+    subgraph MGMT ["🔒 Management Network (10.0.10.0/24)"]
+        PROXMOX1[Proxmox Node 1<br/>10.0.10.11]
+        PROXMOX2[Proxmox Node 2<br/>10.0.10.12]
+        ELK[ELK Stack<br/>10.0.10.20]
+        SO[Security Onion<br/>10.0.10.30]
+    end
+
+    subgraph ATTACK ["⚔️ Attack Network (10.0.20.0/24)"]
+        KALI[Kali Linux<br/>10.0.20.10]
+    end
+
+    subgraph TARGET ["🎯 Target Network (10.0.30.0/24)"]
+        WIN[Windows Server 2022<br/>AD DC - 10.0.30.10]
+        UBUNTU[Ubuntu Server<br/>10.0.30.20]
+        VULN[Vulnerable VMs<br/>10.0.30.50-99]
+    end
+
+    VLAN10 --> MGMT
+    VLAN20 --> ATTACK
+    VLAN30 --> TARGET
+
+    SO -.->|Mirror Port - Traffic Analysis| TARGET
+    ELK -.->|Log Ingestion| TARGET
+    ELK -.->|Log Ingestion| MGMT
+```
 
 Three security zones:
 - **Management Network** - Administrative access only
