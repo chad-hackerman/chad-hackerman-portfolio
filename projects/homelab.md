@@ -6,7 +6,7 @@
 
 **Tech Stack:** Proxmox 8.1, pfSense, Security Onion, Kali Linux, ELK Stack
 
-["View Documentation"](https://github.com/chad-hackerman/homelab)
+[View Documentation](https://github.com/chad-hackerman/homelab)
 
 ---
 
