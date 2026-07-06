@@ -4,7 +4,7 @@
 
 **Contact & Links**
 
-[GitHub](https://github.com/chadhackerman "Security tools and open source projects") | [LinkedIn](https://linkedin.com/in/chadhackerman "Professional profile and endorsements") | [Blog](https://chadhacks.dev "Security research and technical writeups") | <chad@hackerman.io>
+[GitHub](https://github.com/chad-hackerman "Security tools and open source projects") | [LinkedIn](https://linkedin.com/in/chadhackerman "Professional profile and endorsements") | [Blog](https://chadhacks.dev "Security research and technical writeups") | <chad@hackerman.io>
 
 **Location:** Austin, TX | **Open to:** Remote, Hybrid, On-site
 
